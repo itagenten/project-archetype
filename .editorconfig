@@ -1,0 +1,42 @@
+indent_style = space
+indent_size = 4
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+indent_style = space
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{rb,php,yml,html,xml,css,scss,less,js,json}]
+indent_size = 2
+
+[*.{py,md,rst,sh,c,h,cpp,java}]
+indent_size = 4
+
+[*.{md,markdown}]
+trim_trailing_whitespace = false
+indent_size = 4
+
+[node_modules/**.js]
+codepaint = false
+
+[{package,bower}.json]
+indent_style = space
+indent_size = 2
+
+[**.std]
+insert_final_newline = false
+
+[Gemfile*]
+indent_size = 2
+
+[Rakefile]
+indent_size = 2
+
+[Makefile]
+indent_style = tab
+
