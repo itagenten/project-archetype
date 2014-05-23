@@ -3,7 +3,7 @@
 This is a very basic project archetype completely language and framework agnostic. It provides:
 
 * a basic directory structure
-* an .editorconfig
+* an .editorconfig (and of course support of your favourite IDE http://editorconfig.org/#download)
 * a common .gitignore
 * .jshintrc and .jshintignore
 * some default files (README, INSTALL, LICENCE, AUTHORS)
