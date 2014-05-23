@@ -41,4 +41,4 @@ This is a very basic project archetype completely language and framework agnosti
 
 ### Condigure and use pip
 
-    tocuh requirements.txt
+    touch requirements.txt
