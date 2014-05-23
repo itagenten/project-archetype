@@ -1,8 +1,10 @@
+# top-most EditorConfig file
+root = true
+
+# general indent style: 4 spaces
 indent_style = space
 indent_size = 4
 
-# top-most EditorConfig file
-root = true
 
 # Unix-style newlines with a newline ending every file
 [*]
@@ -11,13 +13,19 @@ end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{rb,php,yml,html,xml,css,scss,less,js,json}]
+# html,xml and yml are 2 spaces
+[*.{html,xml,yml}]
 indent_size = 2
 
-[*.{py,md,rst,sh,c,h,cpp,java}]
+# programming languages we code generally with 4 space indention
+[*.{js,json,py,php,java,rb,sh,c,h,cpp}]
 indent_size = 4
 
-[*.{md,markdown}]
+# CSS is coded with 4 space indention
+[*.{css,scss,less}]
+indent_size = 4
+
+[*.{md,markdown,rst}]
 trim_trailing_whitespace = false
 indent_size = 4
 
@@ -32,11 +40,10 @@ indent_size = 2
 insert_final_newline = false
 
 [Gemfile*]
-indent_size = 2
+indent_size = 4
 
 [Rakefile]
-indent_size = 2
+indent_size = 4
 
 [Makefile]
 indent_style = tab
-
